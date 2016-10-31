@@ -1,0 +1,2 @@
+truyền vào 1 số nguyên: C
+sau khi ep kiểu: 67
