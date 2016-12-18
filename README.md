@@ -1,4 +1,8 @@
 # Tổng Quan InputStream và OutputStream trong java
+## Mục Lục: 
++ 
+
+
 ![](https://github.com/trantronghienit/IO-File-/blob/master/image/JT_Fig-9-1-550x775.jpg)
 
 ## Thao tác với file
@@ -62,5 +66,18 @@ Ghi w byte từ mảng byte đã đề cập tới OutputStream.
 + Đọc Object
 [View Code](https://github.com/trantronghienit/IO-File-/blob/master/DemoIO/src/DemoWriterReadObject/DemoReadObject.java)
 
+### serialization là gì ?
++ là 1 cơ chế, được gọi là đối tuợng tuần tự (object serialization) , là quá trình chuyển các cấu trúc dữ liệu và các đối tượng thành một định dạng có thể lưu trữ được ***(vào file, in-memory buffer, hoặc truyền qua network)***
+### Tại sao lại phải dùng serialization
++ vì serialization giúp class (đối tuợng) biểu diễn đuợc  như một chuỗi các bytes đuợc sắp xếp tuần tự bao gồm ***dữ liệu*** của đối tượng cũng như ***thông tin về kiểu*** của đối tượng và ***kiểu dữ liệu được lưu trữ*** trong đối tượng.
++ khi nào thì cần dùng :
+ + khi muốn xử lý (vào file, in-memory buffer, hoặc truyền qua network)
+
+***Ví Dụ Điển Hình Cho Việc Khi Nào Sử Dụng serialization***
++ Một hệ thống Doanh Nghiệp điển hình thường có các thành phần nằm phân tán rải rác trên các hệ thống và mạng khác nhau. Trong Java mọi thứ đều được miêu tả như là một object. Nếu 2 thành phần Java cần liên lạc với nhau, ta cần phải có một cơ chế để chúng trao đổi dữ liệu. Serialization được định nghĩa cho mục đích này, và các thành phần Java sẽ sử dụng giao thức (protocol) này để truyền các object qua lại với nhau.
++ Có thể dùng trao đối dữ liệu giữa 2 hệ thông khác nhau sử dụng thuật tóan tuần tự hóa mà không phụ thuộc vào nền tảng giữa chúng.
+
+một cơ chế liên quan serialization là : ![Parcelable](https://github.com/trantronghienit/Parcelable-Serializable-trong-Java-Android-)
+ 
 # FILE 
 
