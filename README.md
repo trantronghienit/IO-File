@@ -1,6 +1,11 @@
 # Tổng Quan InputStream và OutputStream trong java
 ## Mục Lục: 
-+ 
++ ![kiểu luồng Hỗ trợ ra vào dữ liệu](https://github.com/trantronghienit/IO-File-/blob/master/README.md#c%C3%B3-2-ki%E1%BB%83u-lu%E1%BB%93ng-h%E1%BB%97-tr%E1%BB%A3-ra-v%C3%A0o-d%E1%BB%AF-li%E1%BB%87u-file)
+ + ![Inputstream và Outputstream](https://github.com/trantronghienit/IO-File-/blob/master/README.md#inputstream-v%C3%A0-outputstream)
+ + ![Readder Và Writter](https://github.com/trantronghienit/IO-File-/blob/master/README.md#readder-v%C3%A0-writter)
++ ![Đọc Ghi Đối tượng](https://github.com/trantronghienit/IO-File-/blob/master/README.md#%C4%90%E1%BB%8Dc-ghi-%C4%90%E1%BB%91i-t%C6%B0%E1%BB%A3ng)
++ ![serialization là gì ?](https://github.com/trantronghienit/IO-File-/blob/master/README.md#serialization-l%C3%A0-g%C3%AC-)
++ ![FILE](https://github.com/trantronghienit/IO-File-/blob/master/README.md#file)
 
 
 ![](https://github.com/trantronghienit/IO-File-/blob/master/image/JT_Fig-9-1-550x775.jpg)
