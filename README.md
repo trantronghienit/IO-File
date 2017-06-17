@@ -85,4 +85,5 @@ Ghi w byte từ mảng byte đã đề cập tới OutputStream.
 một cơ chế liên quan serialization là : ![Parcelable](https://github.com/trantronghienit/Parcelable-Serializable-trong-Java-Android-)
  
 # FILE 
-
+## Properties 
+[code demo](https://github.com/trantronghienit/IO-File/blob/master/PropertiesFile.java)
